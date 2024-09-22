@@ -4,7 +4,7 @@ import Flex from './Flex'
 const List = () => {
   return (
  
-     <ul className='flex gap-x-8 text-base font-medium  font-pop cursor-pointer'>
+     <ul className='flex gap-x-[48px] text-base font-medium  font-pop cursor-pointer'>
         <li className='text-[#BBBBCB] duration-500 hover:text-white'>Home</li>
         <li className='text-[#BBBBCB] duration-500 hover:text-white'>About us</li>
         <li className='text-[#BBBBCB] duration-500 hover:text-white'>Features</li>

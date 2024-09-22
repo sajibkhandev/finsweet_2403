@@ -5,13 +5,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    spacing: {
+      'container': '1280px',
+    },
     fontFamily: {
       'pop': ["Poppins",],
       
     },
-    width: {
-      'container': '1280px',
-    },
+    padding: {
+      '5px': '5px',
+    }
+  ,
     colors:{
       'primary':"#1C1E53",
       'secondary':"#ffff"
