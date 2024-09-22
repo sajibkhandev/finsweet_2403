@@ -1,9 +1,10 @@
 import React from 'react'
-import List from './components/List'
+
 import Navber from './Layouts/Navber'
 import Banner from './Layouts/Banner'
 import Work from './Layouts/Work'
 import Project from './Layouts/Project'
+import Featuer from './Layouts/Featuer'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
    <Banner/>
    <Work/>
    <Project/>
+   <Featuer/>
    </>
   )
 }
