@@ -5,7 +5,8 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    spacing: {
+   extend:{
+    width: {
       'container': '1280px',
     },
     fontFamily: {
@@ -19,8 +20,12 @@ export default {
     colors:{
       'primary':"#1C1E53",
       'secondary':"#ffff"
+    },
+    spacing: {
+      'p128': '128px',
     }
-  },
+
+   }  },
   plugins: [],
 }
 

@@ -10,10 +10,10 @@ import Icon3 from '../assets/workIcon3.png'
 import Icon4 from '../assets/workIcon4.png'
 
 const Work = () => {
-    console.log("sajib");
+   
     
   return (
-    <section className='py-[128px]'>
+    <section className='py-[128px] bg-[#F4F6FC]'>
         <Container>
             <Flex>
                 <div className='w-5/12 relative'>
@@ -23,7 +23,7 @@ const Work = () => {
                 </div>
                 <div className='w-7/12 '>
 
-               <div className='flex flex-wrap gap-y-[48px]'>
+               <div className='flex flex-wrap gap-y-12'>
                <CardWork icon={Icon1} title="Strategy" dec="Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam ."/>
                 <CardWork icon={Icon4} title="Wireframing" dec="Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam ."/>
                 <CardWork icon={Icon3} title="Strategy" dec="Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam ."/>
