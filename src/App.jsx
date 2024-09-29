@@ -5,6 +5,9 @@ import Banner from './Layouts/Banner'
 import Work from './Layouts/Work'
 import Project from './Layouts/Project'
 import Featuer from './Layouts/Featuer'
+import FAQ from './components/FAQ'
+import Faqs from './components/Faqs'
+import FaqSection from './Layouts/FaqSection'
 
 const App = () => {
   return (
@@ -14,6 +17,8 @@ const App = () => {
    <Work/>
    <Project/>
    <Featuer/>
+   <FaqSection/>
+   
    </>
   )
 }
