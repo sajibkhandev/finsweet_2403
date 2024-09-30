@@ -9,7 +9,7 @@ import { FaArrowRightLong } from 'react-icons/fa6'
 
 const Contact = () => {
   return (
-    <section>
+    <section className='py-[128px]'>
 
         <Container>
             <Flex>
@@ -26,7 +26,7 @@ const Contact = () => {
               <input className='text-white text-2xl placeholder:text-red-[#F4F6FC] placeholder:text-base w-full my-2.5 py-[18px] px-8 bg-[#1C1E53] border-2 border-white opacite-50' type="text" placeholder='Your Name'/>
               <input className='text-white text-2xl placeholder:text-red-[#F4F6FC] placeholder:text-base w-full my-2.5 py-[18px] px-8 bg-[#1C1E53] border-2 border-white opacite-50' type="text" placeholder='Email'/>
               <input className='text-white text-2xl placeholder:text-red-[#F4F6FC] placeholder:text-base w-full my-2.5 py-[18px] px-8 bg-[#1C1E53] border-2 border-white opacite-50' type="text" placeholder='Paste your Figma design URL'/>
-              <Button className='w-full mt-[50px]' text="Send an Inquiry"/>
+              <Button className='w-full mt-[20px]' text="Send an Inquiry"/>
               <div className='group flex items-center justify-center text-white text-2xl absolute bottom-[32px] left-[50%] -translate-x-1/2'><a  href="">Get in touch with us</a><FaArrowRightLong className='absolute top-[6px] left-[220px] opacity-0 group-hover:opacity-100'/></div>
               </div>
 
