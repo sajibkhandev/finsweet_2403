@@ -13,8 +13,8 @@ const Featuer = () => {
   return (
     <section className='bg-[#F4F6FC] py-p128'>
         <Container>
-            <h6 className='text-center text-[#282938] text-base font-pop font-meduim'>Features</h6>
-            <h2 className='text-center mx-auto text-[#282938] text-5xl font-pop font-semibold w-[548px] pt-3 pb-12'>Design that solves problems, one product at a time</h2>
+            <h6 className='text-center text-[#282938] text-sm md:text-base font-pop font-meduim'>Features</h6>
+            <h2 className='text-center mx-auto text-[#282938] text-[28px] md:text-5xl font-pop font-semibold md:w-[548px] pt-3 pb-12'>Design that solves problems, one product at a time</h2>
 
           <Flex className='flex-wrap gap-x-[34px] gap-y-[34px]'>
            <CardFeatuer icon={Icon1} title="Uses Client First" dec="Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. "/>

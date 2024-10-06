@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
    extend:{
-    width: {
+    maxWidth: {
       'container': '1280px',
     },
     fontFamily: {
