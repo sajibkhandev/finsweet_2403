@@ -8,11 +8,11 @@ import Image from '../components/Image'
 
 const Banner = () => {
   return (
-    <section className='bg-primary py-12 md:py-[100px]'>
+    <section className='bg-primary py-[100px] md:py-[100px]'>
         <Container>
             <Flex className='!block md:!flex'>
                 <div className='md:w-1/2'>
-                    <h1 className=' text-[28px] px-2 md:px-[0px] md:text-[54px] text-[#fff] font-pop font-semibold md:w-[582px]'>Building stellar websites for early startups</h1>
+                    <h1 className=' text-[28px] sm:text-[40px] px-2 md:px-[0px] md:text-[54px] text-[#fff] font-pop font-semibold md:w-[582px]'>Building stellar websites for early startups</h1>
                     <p className='px-2 md:px-[0px] text-base text-[#fff] font-pop font-normal md:w-[562px] pt-4 md:pt-6 pb-[48px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                     <div className='flex relative'>
                         <Button text='View our work'/>
